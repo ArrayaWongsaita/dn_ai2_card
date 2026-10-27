@@ -6,9 +6,9 @@
 body {
   margin: 0;
   padding: 40px 16px;
-  background-color: #eef2f7;
-  color: #273449;
-  font-family: Arial, sans-serif;
+  background: linear-gradient(160deg, #fdf0f5 0%, #f5eefb 100%) fixed;
+  color: #3f3346;
+  font-family: "Prompt", "Sarabun", Arial, sans-serif;
   line-height: 1.7;
 }
 
@@ -16,38 +16,43 @@ body {
 .card {
   max-width: 400px;
   margin: 0 auto;
-  padding: 32px 24px;
+  padding: 36px 28px;
   background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px #00000012;
+  border: 1px solid #f3dce7;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px #b8326f1a;
   text-align: center;
 }
 
 .avatar {
-  width: 80px;
-  height: 80px;
+  width: 84px;
+  height: 84px;
   margin: 0 auto 20px;
   border-radius: 50%;
-  background-color: #2855c5;
+  background: linear-gradient(135deg, #e58aae, #a98bd9);
   color: white;
   font-size: 36px;
-  line-height: 80px;
+  line-height: 84px;
 }
 
 h1 {
   margin: 0;
   font-size: 26px;
+  font-weight: 600;
+  color: #4a2d45;
 }
 
 .job {
   margin-top: 4px;
-  color: #2855c5;
+  color: #a8326f;
+  font-weight: 500;
 }
 
 .contact {
   margin: 24px 0;
-  padding-top: 16px;
-  border-top: 1px solid #dddddd;
+  padding: 12px 18px;
+  border-radius: 14px;
+  background-color: #fbf3f7;
   text-align: left;
   overflow-wrap: anywhere;
 }
@@ -57,29 +62,30 @@ h1 {
 }
 
 a {
-  color: #2855c5;
+  color: #a8326f;
 }
 
 .button {
   display: inline-block;
-  padding: 10px 28px;
-  border-radius: 6px;
-  background-color: #2855c5;
+  padding: 10px 30px;
+  border-radius: 999px;
+  background-color: #a8326f;
   color: white;
   text-decoration: none;
+  transition: background-color 0.2s;
 }
 
 .button:hover {
-  background-color: #1c3e94;
+  background-color: #8a2659;
 }
 
 a:focus-visible {
-  outline: 3px solid #ca7900;
+  outline: 3px solid #7a5bb5;
   outline-offset: 4px;
 }
 
 .note {
   margin-bottom: 0;
-  color: #667085;
+  color: #7d6c85;
   font-size: 12px;
 }
