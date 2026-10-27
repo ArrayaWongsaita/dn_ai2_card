@@ -1,0 +1,85 @@
+/* รูปแบบพื้นฐานของหน้าเว็บ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 16px;
+  background-color: #eef2f7;
+  color: #273449;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* กล่องนามบัตร */
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #00000012;
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #2855c5;
+  color: white;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.job {
+  margin-top: 4px;
+  color: #2855c5;
+}
+
+.contact {
+  margin: 24px 0;
+  padding-top: 16px;
+  border-top: 1px solid #dddddd;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.contact p {
+  margin: 8px 0;
+}
+
+a {
+  color: #2855c5;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 6px;
+  background-color: #2855c5;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #1c3e94;
+}
+
+a:focus-visible {
+  outline: 3px solid #ca7900;
+  outline-offset: 4px;
+}
+
+.note {
+  margin-bottom: 0;
+  color: #667085;
+  font-size: 12px;
+}
